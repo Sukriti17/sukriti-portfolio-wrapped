@@ -6,7 +6,7 @@ export const profile = {
 
   // ✅ Wrapped-style highlights (strong first impression)
   highlights: [
-    "1.6 years at Accenture — enterprise delivery + debugging ownership",
+    "1.5 years at Accenture — enterprise delivery + debugging ownership",
     "Built Deep Learning + CV projects with real-world problem framing",
     "Time-series forecasting + recommender systems (DS + ML depth)",
     "React + Flask full-stack dashboard projects (product-ready mindset)",
