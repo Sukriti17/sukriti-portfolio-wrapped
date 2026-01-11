@@ -270,19 +270,15 @@ useEffect(() => {
                     >
                     View GitHub
                     </a>
-                    <button
-  onClick={() => {
-    const link = document.createElement("a");
-    link.href = `${import.meta.env.BASE_URL}Sukriti_Singh_Resume.pdf`;
-    link.download = "Sukriti_Singh_Resume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  }}
+                    <a
+  href="https://sukriti17.github.io/sukriti-portfolio-wrapped/Sukriti_Singh_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
   className="rounded-xl px-5 py-3 border border-white/15 text-white/90 hover:bg-white/5 transition"
 >
-  Download Resume
-</button>
+  View Resume
+</a>
+
 
 
 
