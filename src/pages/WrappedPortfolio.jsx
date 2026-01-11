@@ -270,13 +270,20 @@ useEffect(() => {
                     >
                     View GitHub
                     </a>
-                    <a
-  href={`${import.meta.env.BASE_URL}Sukriti_Singh_Resume.pdf`}
-  download="Sukriti_Singh_Resume.pdf"
+                    <button
+  onClick={() => {
+    const link = document.createElement("a");
+    link.href = `${import.meta.env.BASE_URL}Sukriti_Singh_Resume.pdf`;
+    link.download = "Sukriti_Singh_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }}
   className="rounded-xl px-5 py-3 border border-white/15 text-white/90 hover:bg-white/5 transition"
 >
   Download Resume
-</a>
+</button>
+
 
 
                   </div>
