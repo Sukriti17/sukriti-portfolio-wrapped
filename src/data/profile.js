@@ -122,23 +122,24 @@ export const profile = {
     },
 
     {
-      title: "Uber Ride Demand Prediction & Driver Optimization (Forecasting)",
-      repo: "https://github.com/Sukriti17/Uber-Ride-Demand-Prediction-Driver-Optimization",
-      problem:
-        "Ride demand varies hourly and is hard to predict, impacting driver allocation and customer wait time.",
-      build:
-        "Performed time-series forecasting using SARIMAX and Prophet, included weather + historical trip patterns, and built insights dashboards.",
-      result:
-        "Produced hourly demand predictions and actionable insights to support optimization decisions (driver availability planning).",
-      stack: ["Python", "Time Series", "SARIMAX", "Prophet", "Tableau"],
-      bullets: [
-        "Time-series decomposition + seasonality trend analysis",
-        "Feature integration (weather + demand history)",
-        "Model comparison: SARIMAX vs Prophet",
-        "Evaluation & error analysis to improve forecast quality",
-        "Dashboard visualization for stakeholder-ready insights",
-      ],
-    },
+  title: "Uber Ride Demand Analysis & Optimization",
+  problem:
+    "Ride demand varies significantly by time of day, making it challenging to understand peak usage periods and plan driver availability efficiently.",
+  build:
+    "Performed exploratory data analysis on historical Uber ride data to understand demand patterns across hours and days. Cleaned and processed the dataset, analyzed trends, and built a simple prediction logic to estimate demand levels based on time-based features.",
+  result:
+    "Identified peak demand hours and usage trends, demonstrating how data-driven insights can support better operational planning and reduce customer wait times.",
+  bullets: [
+    "Data cleaning and preprocessing of real-world ride datasets",
+    "Exploratory data analysis (EDA) to identify hourly and daily demand patterns",
+    "Feature analysis using time-based attributes (hour, day, weekday vs weekend)",
+    "Basic predictive logic to estimate ride demand levels",
+    "Visualization of demand trends using charts and dashboards",
+    "Focus on interpretability and business insights rather than complex models",
+  ],
+  stack: ["Python", "Pandas", "NumPy", "Data Analysis", "Visualization"],
+}
+,
 
     {
       title: "Personalized Recommendation System (Recommenders)",
