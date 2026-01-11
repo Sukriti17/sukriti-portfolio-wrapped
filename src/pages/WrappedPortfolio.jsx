@@ -271,12 +271,13 @@ useEffect(() => {
                     View GitHub
                     </a>
                     <a
+  href={`${import.meta.env.BASE_URL}Sukriti_Singh_Resume.pdf`}
+  download="Sukriti_Singh_Resume.pdf"
   className="rounded-xl px-5 py-3 border border-white/15 text-white/90 hover:bg-white/5 transition"
-  href="/Sukriti_Singh_Resume.pdf"
-  download
 >
   Download Resume
 </a>
+
 
                   </div>
                 </GlassCard>
